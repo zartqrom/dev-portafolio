@@ -9,22 +9,23 @@
 </head>
 <body>
     <nav class="navbar navbar-dark bg-dark">
-        <div class="container">
+        <div class="container-lg">
             <span class="navbar-brand mb-0 h1">Mi Portafolio</span>
             <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown button
+                <button class="btn btn-secondary px-3 d-flex" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    <ion-icon name="grid-outline"></ion-icon>
                 </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Acerca de mí</a></li>
+                    <li><a class="dropdown-item" href="#">Proyectos</a></li>
+                    <li><a class="dropdown-item" href="#">Contacto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!--Scripts-->
-    <script src="/js/popper-lite.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="/js/popper.js"></script>
     <script src="/js/bootstrap.js"></script>
 </body>
 </html>
