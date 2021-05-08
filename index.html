@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/custom.css">
 </head>
 <body>
+    <!--Barra de navegación-->
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-lg">
             <span class="navbar-brand mb-0 h1">Mi Portafolio</span>
@@ -16,6 +17,7 @@
                     <ion-icon name="grid-outline"></ion-icon>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Inicio</a></li>
                     <li><a class="dropdown-item" href="#">Acerca de mí</a></li>
                     <li><a class="dropdown-item" href="#">Proyectos</a></li>
                     <li><a class="dropdown-item" href="#">Contacto</a></li>
@@ -23,6 +25,26 @@
             </div>
         </div>
     </nav>
+    <!--Sección de inicio-->
+    <section class="home">
+        <div class="container">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-12 col-md-4">
+                    <div id="foto-portada text-center">
+                        <img src="/img/Foto.png" alt="Foto Portada"
+                            class="img-fluid rounded-3 mw-100"/>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="resumen">
+                        <h1>Hola!</h1>
+                        <h2>Me llamo Hazel Rocha</h2>
+                        <p>Soy estudiante</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Scripts-->
     <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
     <script src="/js/popper.js"></script>
